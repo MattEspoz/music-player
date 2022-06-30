@@ -19,7 +19,8 @@ body {
   height: 500px;
   /* screen width is around ~400px for smart phones */
   width: 400px; 
-  background-color: #d9d7d7;
+  background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
@@ -65,7 +66,7 @@ h3 {
 }
 
 .progress {
-  background: #242323;
+  background: #140861;
   border-radius: 5px;
   height: 100%;
   width: 0%;
@@ -89,7 +90,7 @@ h3 {
 
 .fas {
   font-size: 30px;
-  color: rgb(129, 129, 129);
+  color: rgb(255, 255, 255);
   margin-right: 30px;
   cursor: pointer;
   /* Prevents others fonts from being selected */
